@@ -7,7 +7,7 @@ class obstaculo
 private:
 	string forma;
 	int cantidades;
-	float tamano;
+	float tamaño;
 	int posicion;
 public:
 	obstaculo(string, int, float, int);

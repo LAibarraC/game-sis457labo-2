@@ -1,9 +1,9 @@
 #include "balon.h"
 
-balon::balon(string _color, float _tamano, string _forma)
+balon::balon(string _color, float _tamaño, string _forma)
 {
 	color=_color;
-	tamano=_tamano;
+	tamaño=_tamaño;
 	forma=_forma;
 }
 

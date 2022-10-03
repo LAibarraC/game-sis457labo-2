@@ -7,9 +7,9 @@ class obspuas
 private:
 	string color;
 	int posicion;
-	int tamano;
+	float tamaño;
 public:
-	obspuas(string, int, int);
+	obspuas(string, int,float);
 	void quitarvida();
 	void eliminar();
 };

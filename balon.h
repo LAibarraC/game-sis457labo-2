@@ -6,7 +6,7 @@ class balon
 {
 private:
 	string color;
-	float tamano;
+	float tamaño;
 	string forma;
 public:
 	balon(string, float, string);

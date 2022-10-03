@@ -1,11 +1,11 @@
 #include "obstaculo.h"
 
-obstaculo::obstaculo(string _forma, int _cantidades, float _tamano, int _posicion)
+obstaculo::obstaculo(string _forma, int _cantidades, float _tamaño, int _posicion)
 {
 	forma=_forma;
 	cantidades=_cantidades;
-	tamano=_tamano;
-	tamano=_posicion;
+	tamaño=_tamaño;
+	posicion=_posicion;
 }
 
 void obstaculo::salvavida()

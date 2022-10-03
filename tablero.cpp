@@ -1,9 +1,9 @@
 #include "tablero.h"
 
-tablero::tablero(int _puntos, float _tamano)
+tablero::tablero(int _puntos, float _tamaño)
 {
 	puntos=_puntos;
-	tamano=_tamano;
+	tamaño=_tamaño;
 }
 
 void tablero::mostrar()

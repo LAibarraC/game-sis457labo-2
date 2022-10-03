@@ -1,11 +1,11 @@
 #include "obspuas.h"
 
 
-obspuas::obspuas(string _color, int _posicion, int _tamano)
+obspuas::obspuas(string _color, int _posicion, float _tamaño)
 {
 	color=_color;
 	posicion=_posicion;
-	tamano=_tamano;
+	tamaño=_tamaño;
 }
 
 void obspuas::quitarvida()

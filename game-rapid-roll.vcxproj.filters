@@ -33,6 +33,9 @@
     <ClInclude Include="obspuas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="fondopantalla.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="balon.cpp">
@@ -54,6 +57,9 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="main-Rapid-Roll.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="fondopantalla.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

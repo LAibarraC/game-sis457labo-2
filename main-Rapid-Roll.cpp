@@ -6,6 +6,7 @@
 #include"obspuas.h"
 #include"vidas.h"
 #include"tablero.h"
+#include"fondopantalla.h"
 using namespace std;
 int main() {
 	//1
@@ -26,6 +27,7 @@ int main() {
 	//6
 	tablero t1 = tablero(1, 3);
     t1.mostrar();
-
+	fondopantalla d1 = fondopantalla("paisajes", 23);
+	d1.mostrar();
 
 }

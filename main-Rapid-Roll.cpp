@@ -27,6 +27,7 @@ int main() {
 	//6
 	tablero t1 = tablero(1, 3);
     t1.mostrar();
+	//7
 	fondopantalla d1 = fondopantalla("paisajes", 23);
 	d1.mostrar();
 
